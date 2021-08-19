@@ -1,0 +1,165 @@
+body {
+    padding: 4em;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+}
+
+#data2 {
+    padding: 2em;
+}
+
+#data3 {
+    padding: 2em;
+    background-color: rgb(251, 251, 255);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#data4 {
+    padding: 2em;
+    background-color: rgb(251, 251, 255);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#data5 {
+    padding: 2em;
+    background-color: rgb(251, 251, 255);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#data6 {
+    padding: 2em;
+    background-color: rgb(251, 251, 255);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#data7 {
+    padding: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#obj {
+    padding: 2em;
+}
+
+p {
+    line-height: 2em;
+    letter-spacing: 0.01em;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(251, 251, 255);
+    padding: 1em;
+}
+
+.left_top {
+    padding-top: 2em;
+}
+
+.left_top a {
+    display: flex;
+    padding: 0.5em;
+}
+
+h3 {
+    color: #0D8FCD;
+}
+
+h2 {
+    color: #0D8FCD;
+}
+
+li {
+    padding: 1em;
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 250%;
+    color: #0D8FCD;
+}
+
+#objhead {
+    color: #0D8FCD;
+}
+
+#skills {
+    width: 40vw;
+    padding: 2em;
+}
+
+#psum {
+    padding: 2em;
+    background-color: rgb(251, 251, 255);
+}
+
+#top1 {
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+#top2 {
+    border-radius: 0.5em;
+}
+
+#btom1 {
+    border-radius: 0.5em;
+}
+
+#btom2 {
+    border-radius: 0.5em;
+}
+
+img {
+    width: 4vw;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#tm {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+}
+
+@media (max-width: 608px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(228, 228, 236);
+        padding: 1em;
+    }
+    body {
+        padding: 1em;
+        font-family: 'Times New Roman', Georgia, Times, serif;
+        font: small;
+    }
+}
+
+@media (max-width: 1125px) {
+    .name {
+        font-size: 180%;
+        color: #0D8FCD;
+    }
+}
