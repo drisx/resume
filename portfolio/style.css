@@ -96,7 +96,7 @@ li {
 }
 
 #skills {
-    width: 40vw;
+    /* width: 40vw; */
     padding: 2em;
 }
 
@@ -161,5 +161,20 @@ footer {
     .name {
         font-size: 180%;
         color: #0D8FCD;
+    }
+    .split {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    nav.name {
+        font-size: 250%;
+        color: #0D8FCD;
+        text-align: initial;
+    }
+    p {
+        line-height: 1.3em;
+        letter-spacing: 0.005em;
+        text-align: justify;
     }
 }
